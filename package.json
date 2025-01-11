@@ -1,0 +1,12 @@
+{
+  "name": "my-web-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Building the app' && mkdir -p build && cp -r * build/"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
